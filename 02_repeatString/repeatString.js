@@ -1,13 +1,14 @@
 const repeatString = function(string, num) {
-    let word = string;
-    let i = 1;
-    while (i < num) {
-        console.log(word);
+    if (num < 0) return "ERROR";
+    let word = "";
+    let i = 0;
+    while(i < num) {
+        word += string;
         i++;
     }
     return word;
 };
-console.log(repeatString("hey", 3));
+
 
 
 // Do not edit below this line
