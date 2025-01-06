@@ -7,7 +7,5 @@ const removeFromArray = function(array, ...args) {
     });
     return newArray;
 };
-//let Array = [1, 2, 3, 4];
-//removeFromArray(Array, 3);
-// Do not edit below this line
+
 module.exports = removeFromArray;
